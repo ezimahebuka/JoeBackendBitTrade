@@ -9,7 +9,6 @@ exports.CreateContact = async (req, res, next) => {
     if (!req.body) {
       return next(createError(400, "Fill all information!"));
     }
-    // const sender =  NewContactMsg.email
 
     const mailOptions = {
       /*   let sender = NewContactMsg.email, */
