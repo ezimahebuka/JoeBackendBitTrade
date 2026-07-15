@@ -9,7 +9,7 @@ const withdrawRouter = require("./routes/withdrawRouter");
 const historyRouter = require("./routes/historyRoute");
 const investRouter = require("./routes/investRouter");
 const planRouter = require("./routes/plansRouter");
-const addWallet = require("./models/AddWallet");
+const addWallet = require("./routes/WalletRouter");
 const cors = require("cors");
 const app = express();
 app.use(cors());
